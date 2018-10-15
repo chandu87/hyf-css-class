@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>First Website</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+        <h1>Hello World</h1>
+        <p>
+            Lorem ipsum loorem
+        </p>
+        <form>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name" placeholder="Enter name" maxlength="20"/>
+            </div>
+            <div>
+                <label for="mail">Email(*):</label>
+                <input required type="email" id="mail" name="user_mail" placeholder="Enter Email address"/>
+            </div>
+            <div>
+                <label for="pas">Passowrd(*):</label>
+                <input required type="password" pattern="[0-9a-fA-F]{4,8}" id="pas" minlength="8" placeholder="Enter password"/>
+            </div>
+            <div>
+                <label for="msg">Message(*):</label>
+                <textarea required rows="5" id="msg" name="user_message" placeholder="Enter message"></textarea>
+                <button> Send</button>
+            </div>
+
+        </form>    
+    </body>
+</html>

@@ -1,0 +1,21 @@
+*{
+    box-sizing:border-box;
+ 
+}
+
+.box {
+    display: flex;
+   }
+
+  .a,.b,.c {
+    background-color: #5D4157;
+    color: white;
+    height: 100px;
+    width: 300px;
+    line-height: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 50px;
+    margin: 20px;
+  }
